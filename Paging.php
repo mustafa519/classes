@@ -1,17 +1,17 @@
 <?php
-class Paging extends MC
+class Paging
 {
 	public
-		$DATA			= NULL,		/* ALL DATA							*/
-		$LIMIT			= 50,			/* PAGE ITEM COUNT				*/
-		$DOTS			= true,		/* CARET DOTS						*/
-		$ARROWS		= true,		/* PREV, NEXT ARROWS			*/
-		$WLIMIT			= 2,			/* PAGELINE INTERVAL				*/
-		$CURRENT		= 1,			/* DEFAULT CURRENT				*/
-		$SELECT			= true,		/* SELECT BOX STATUS			*/
-		$NAME			= 'pn',		/* DEFAULT GET SELECTOR		*/
-		$PC,								/* CALCULATED PAGE COUNT		*/
-		$LINK;							/* CURRENT PAGE LINK	TAKER	*/
+		$DATA			= NULL,
+		$LIMIT			= 50,
+		$DOTS			= true,
+		$ARROWS			= true,
+		$WLIMIT			= 2,
+		$CURRENT		= 1,
+		$SELECT			= true,
+		$NAME			= 'pn',
+		$PC,
+		$LINK;
 	//----------------------------------------------------------------//
 	public function __construct()
 	{

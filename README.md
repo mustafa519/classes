@@ -3,9 +3,9 @@ classes
 
 İhtiyacınız olabilecek bir takım sınıf dizileri yayınlanmaktadır.
 
-### Paging
+## Paging
 
-# Paging sınıfı kullanımı:
+### Paging sınıfı kullanımı:
 
 **Çağırıldı:**
 ```

@@ -20,7 +20,7 @@ $Count            = mysql_fetch_assoc(mysql_query('select COUNT(`ID`) from `tabl
 ```
 $Paging->DATA     = array_pop($Count);
 ```
-SQL'den dönen data alınır. Default: NULL
+SQL'den dönen veri adedi alınır. Default: NULL
 
 ```
 $Paging->LIMIT    = 20;
